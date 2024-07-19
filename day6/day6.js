@@ -62,4 +62,4 @@ let matrix = [
 console.log(matrix);
 
 //Task 13: Access and log a specific element from the two-dimensional array.
-console.log(matrix[0][1]);
+console.log(matrix[0][1]);               //to access 2
