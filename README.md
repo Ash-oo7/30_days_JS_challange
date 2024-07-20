@@ -10,5 +10,5 @@ Each day, a new challenge is introduced, focusing on different aspects of JavaSc
 
 ## Repository Structure
 
-This repository is organized by days, with each day's code and projects stored in their respective folders. Here is a brief overview of the structure:
+This repository is organized by days, with each day's code and projects stored in their respective folders. 
 
