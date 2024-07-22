@@ -65,3 +65,17 @@ ul.addEventListener('click', (e) => {
 })
 
 // Task 10: Add an event listener to a parent that listens for events from dynamically added child elements.
+const addItem = document.querySelector('#addItem')
+const list = document.querySelector('#list')
+addItem.addEventListener('click', (e) => {
+    const li = document.createElement('li')
+    li.classList.add('newli')
+    li.textContent = 'second'
+    list.appendChild(li)
+}
+)
+list.addEventListener('click', (e) => {
+    if (e.target.matches('.newli')) {
+        console.log(e.target.textContent);
+    }
+})
